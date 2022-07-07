@@ -21,7 +21,7 @@ function User() {
         const loadUser = async () => {
             const config = {
                 headers: {
-                    "Authorization": `Token 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`
+                    "Authorization": `Token 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`
                 }
             }
             const response = await axios.get(`https://api.github.com/users/${id}`, config);
