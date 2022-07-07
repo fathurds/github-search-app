@@ -14,7 +14,7 @@ function Home() {
         const loadUsers = async () => {
             const config = {
                 headers: {
-                    "Authorization": `Token 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`
+                    "Authorization": `Token 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`
                 }
             }
             if (query.length > 0) {
